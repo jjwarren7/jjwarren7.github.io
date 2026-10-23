@@ -10,108 +10,127 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="frame">
+<div class="inner">
  
-  <header class="lace">
-    <img class="orn-img" src="ornament.jpg" alt="">
+  <header class="banner">
     <h1>for HIS NAME</h1>
-    <p class="sub"><i>a little house made of love and drawings</i></p>
+    <p>a little house made of love and drawings</p>
   </header>
  
-  <div class="page">
+  <nav>
+    <a href="#letter">letter</a>
+    <a href="#drawings">drawings</a>
+    <a href="#loves">collections</a>
+    <a href="#notes">notes</a>
+  </nav>
  
-    <nav>
-      <a href="#letter">a letter</a>
-      <a href="#drawings">drawings</a>
-      <a href="#loves">things we love</a>
-      <a href="#notes">little notes</a>
-    </nav>
+  <div class="cols">
  
-    <section id="letter">
-      <h2>a letter</h2>
-      <p>Write something to him here. Why you love him, a favorite memory, an inside joke. This is the heart of the page, so take your time with it.</p>
-      <p class="sign"><i>always yours, YOUR NAME</i></p>
-    </section>
- 
-    <img class="orn-img divider" src="ornament.jpg" alt="">
- 
-    <section id="drawings">
-      <h2>drawings</h2>
-      <p class="hint"><i>things i drew, for you</i></p>
-      <div class="gallery">
-        <!-- To add a drawing: upload the image to your repo, then replace
-             <div class="empty">...</div> in a frame with:
-             <img src="mydrawing.jpg" alt="describe the drawing"> -->
-        <figure>
-          <div class="bezel"><div class="empty"><span>drawing one</span></div></div>
-          <figcaption>title, date</figcaption>
-        </figure>
-        <figure>
-          <div class="bezel"><div class="empty"><span>drawing two</span></div></div>
-          <figcaption>title, date</figcaption>
-        </figure>
-        <figure>
-          <div class="bezel"><div class="empty"><span>drawing three</span></div></div>
-          <figcaption>title, date</figcaption>
-        </figure>
-        <figure>
-          <div class="bezel"><div class="empty"><span>drawing four</span></div></div>
-          <figcaption>title, date</figcaption>
-        </figure>
+    <!-- SIDEBAR -->
+    <aside>
+      <div class="panel cloud">
+        <h3>update log</h3>
+        <ul>
+          <li><b>oct 23, 2026:</b> the site is open! welcome in.</li>
+          <li><b>add a date:</b> write your next update here.</li>
+        </ul>
       </div>
-    </section>
- 
-    <img class="orn-img divider" src="ornament.jpg" alt="">
- 
-    <section id="loves">
-      <h2>things we love</h2>
-      <div class="collage">
-        <figure class="c1">
-          <div class="bezel"><img src="cassettes.jpg" alt="Daft Punk cassettes on a Technics tape deck"></div>
-          <figcaption class="label">side a: the tapes</figcaption>
-        </figure>
-        <figure class="c2">
-          <div class="bezel"><img src="antlers.jpg" alt="Antlers and a vinyl record on a wooden shelf"></div>
-          <figcaption class="label">antlers &amp; vinyl</figcaption>
-        </figure>
-        <figure class="c3">
-          <div class="bezel"><img src="swords.jpg" alt="Swords hanging on a wall"></div>
-          <figcaption class="label">the sword wall</figcaption>
-        </figure>
-        <figure class="c4">
-          <div class="stamp"><img src="anime.gif" alt="Two anime characters about to kiss"></div>
-        </figure>
-        <figure class="c5">
-          <div class="stamp"><img src="robots.gif" alt="Two robot helmets in the back of a car"></div>
-        </figure>
-      </div>
-    </section>
- 
-    <img class="orn-img divider" src="ornament.jpg" alt="">
- 
-    <section id="notes">
-      <h2>little notes</h2>
  
       <div class="deck">
         <span class="deck-tag">now playing</span>
-        <span class="deck-song">song name - artist</span>
+        <span>song name - artist</span>
       </div>
  
-      <div class="note">
-        <p><i>october 23, 2026</i></p>
-        <p>made this for you. i hope you like it.</p>
+      <div class="buttons">
+        <span class="btn b1">made with love</span>
+        <span class="btn b2">est. 2026</span>
+        <span class="btn b3">tapes 4 ever</span>
+        <span class="btn b4">no rush</span>
       </div>
-      <div class="note">
-        <p><i>add the next note here</i></p>
-        <p>write whatever you like.</p>
-      </div>
-    </section>
+    </aside>
  
-    <footer>
-      <img class="orn-img divider" src="ornament.jpg" alt="">
-      <p><i>made with love</i></p>
-    </footer>
+    <!-- MAIN -->
+    <main>
  
+      <section class="panel" id="letter">
+        <img class="orn-img corner" src="ornament.jpg" alt="">
+        <h2><span class="drop">W</span>elcome, love</h2>
+        <p>Write something to him here. Why you love him, a favorite memory, an inside joke. This is the heart of the page, so take your time with it.</p>
+        <p class="sign"><i>always yours, YOUR NAME</i></p>
+      </section>
+ 
+      <section class="panel" id="drawings">
+        <h2><span class="drop">D</span>rawings</h2>
+        <p class="hint"><i>things i drew, for you</i></p>
+        <div class="gallery">
+          <!-- To add a drawing: upload the image to your repo, then replace
+               <div class="empty">...</div> in a frame with:
+               <img src="mydrawing.jpg" alt="describe the drawing"> -->
+          <figure>
+            <div class="bezel"><div class="empty"><span>drawing one</span></div></div>
+            <figcaption>title, date</figcaption>
+          </figure>
+          <figure>
+            <div class="bezel"><div class="empty"><span>drawing two</span></div></div>
+            <figcaption>title, date</figcaption>
+          </figure>
+          <figure>
+            <div class="bezel"><div class="empty"><span>drawing three</span></div></div>
+            <figcaption>title, date</figcaption>
+          </figure>
+          <figure>
+            <div class="bezel"><div class="empty"><span>drawing four</span></div></div>
+            <figcaption>title, date</figcaption>
+          </figure>
+        </div>
+      </section>
+ 
+      <section class="panel" id="loves">
+        <h2><span class="drop">C</span>ollections</h2>
+        <div class="collage">
+          <figure class="c1">
+            <div class="bezel"><img src="cassettes.jpg" alt="Daft Punk cassettes on a Technics tape deck"></div>
+            <figcaption class="label">side a: the tapes</figcaption>
+          </figure>
+          <figure class="c2">
+            <div class="bezel"><img src="antlers.jpg" alt="Antlers and a vinyl record on a wooden shelf"></div>
+            <figcaption class="label">antlers &amp; vinyl</figcaption>
+          </figure>
+          <figure class="c3">
+            <div class="bezel"><img src="swords.jpg" alt="Swords hanging on a wall"></div>
+            <figcaption class="label">the sword wall</figcaption>
+          </figure>
+          <figure class="c4">
+            <div class="stamp"><img src="anime.gif" alt="Two anime characters about to kiss"></div>
+          </figure>
+          <figure class="c5">
+            <div class="stamp"><img src="robots.gif" alt="Two robot helmets in the back of a car"></div>
+          </figure>
+        </div>
+      </section>
+ 
+      <section class="panel" id="notes">
+        <h2><span class="drop">N</span>otes</h2>
+        <div class="note">
+          <p><i>october 23, 2026</i></p>
+          <p>made this for you. i hope you like it.</p>
+        </div>
+        <div class="note">
+          <p><i>add the next note here</i></p>
+          <p>write whatever you like.</p>
+        </div>
+      </section>
+ 
+    </main>
   </div>
+ 
+  <footer>
+    <p><i>made with love</i></p>
+  </footer>
+ 
+</div>
+</div>
 </body>
 </html>
  
