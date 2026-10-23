@@ -1,35 +1,99 @@
-❦ ✠ ❦
+Claude
 
-for HIS NAME
-a little house made of love and drawings
 
-his portrait goes here
-a letter ✦ drawings ✦ little notes
-a letter
-Write something to him here. Why you love him, a favorite memory, an inside joke. This is the heart of the page, so take your time with it.
-
-always yours, YOUR NAME
-
-drawings
-things i drew, for you
-
-drawing one
-title, date
-drawing two
-title, date
-drawing three
-title, date
-drawing four
-title, date
-little notes
-october 23, 2026
-
-made this for you. i hope you like it.
-
-add the next note here
-
-write whatever you like.
-
-❦
-
-made with love
+Index · HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>for him</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="frame">
+ 
+    <header>
+      <p class="flourish">❦ ✠ ❦</p>
+      <h1>for HIS NAME</h1>
+      <p class="sub"><i>a little house made of love and drawings</i></p>
+ 
+      <!-- To add a photo of him: upload the photo to your repo, then replace the
+           <div class="cameo-empty">...</div> line with:
+           <img class="cameo" src="yourphoto.jpg" alt="HIS NAME"> -->
+      <div class="cameo-wrap">
+        <div class="cameo-empty"><span>his portrait goes here</span></div>
+      </div>
+    </header>
+ 
+    <nav>
+      <a href="#letter">a letter</a>
+      <span>✦</span>
+      <a href="#drawings">drawings</a>
+      <span>✦</span>
+      <a href="#notes">little notes</a>
+    </nav>
+ 
+    <hr class="orn">
+ 
+    <section id="letter">
+      <h2>a letter</h2>
+      <p>Write something to him here. Why you love him, a favorite memory, an inside joke. This is the heart of the page, so take your time with it.</p>
+      <p class="sign"><i>always yours, YOUR NAME</i></p>
+    </section>
+ 
+    <hr class="orn">
+ 
+    <section id="drawings">
+      <h2>drawings</h2>
+      <p class="hint"><i>things i drew, for you</i></p>
+ 
+      <div class="gallery">
+        <!-- To add a drawing: upload the image to your repo, then replace the
+             <div class="empty">...</div> inside a figure with:
+             <img src="mydrawing.jpg" alt="describe the drawing"> -->
+        <figure>
+          <div class="empty"><span>drawing one</span></div>
+          <figcaption>title, date</figcaption>
+        </figure>
+        <figure>
+          <div class="empty"><span>drawing two</span></div>
+          <figcaption>title, date</figcaption>
+        </figure>
+        <figure>
+          <div class="empty"><span>drawing three</span></div>
+          <figcaption>title, date</figcaption>
+        </figure>
+        <figure>
+          <div class="empty"><span>drawing four</span></div>
+          <figcaption>title, date</figcaption>
+        </figure>
+      </div>
+    </section>
+ 
+    <hr class="orn">
+ 
+    <section id="notes">
+      <h2>little notes</h2>
+      <div class="note">
+        <p><i>october 23, 2026</i></p>
+        <p>made this for you. i hope you like it.</p>
+      </div>
+      <div class="note">
+        <p><i>add the next note here</i></p>
+        <p>write whatever you like.</p>
+      </div>
+    </section>
+ 
+    <footer>
+      <p class="flourish">❦</p>
+      <p><i>made with love</i></p>
+    </footer>
+ 
+  </div>
+</body>
+</html>
+ 
